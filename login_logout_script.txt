@@ -32,7 +32,7 @@ ON LOGOUT:
 :local monthly [:put [/system script get [find name=monthly] source]];
 :local daily [:put [/system script get [find name=daily] source]];
 
-/tool fetch url="https://api.telegram.org/bot1891207730:AAFUQrSORpwyJ6FXkxOXFhlz-5dES1kl6LQ/sendmessage?chat_id=-507028329&text=<<======== LOG OUT ========>> %0A Code: $user %0A Mac: $mac %0A IP Address: $address %0A Created: $date $time%0A===========================%0A Amount: $totalamount %0A Total Time: $totaltime %0A Uptime: $totaluptime %0A Remaing Time: $usertimeleft %0A Expiration: $exp%0A===========================%0A Total Sales: $income %0A Monthly Sales: $monthly %0A Daily Sales: $daily %0A Active Users: $useractive" keep-result=no;
+/tool fetch url="https://api.telegram.org/bot89130:AAFUQrSOFXkxOXFhlz-5dES1klQ/sendmessage?chat_id=-507028329&text=<<======== LOG OUT ========>> %0A Code: $user %0A Mac: $mac %0A IP Address: $address %0A Created: $date $time%0A===========================%0A Amount: $totalamount %0A Total Time: $totaltime %0A Uptime: $totaluptime %0A Remaing Time: $usertimeleft %0A Expiration: $exp%0A===========================%0A Total Sales: $income %0A Monthly Sales: $monthly %0A Daily Sales: $daily %0A Active Users: $useractive" keep-result=no;
 
 
 
